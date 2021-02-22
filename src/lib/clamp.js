@@ -59,21 +59,20 @@ const Clamp = ({
             </TruncatedElement>
 
             {showMore && !isExpanded && (
-                <button
-                    type="button"
+                <span
+          
                     onClick={() => handleToggleShowMore(true)}
                 >
                     {texts.showMore}
-                </button>
+                </span>
             )}
 
             {isExpanded && (
-                <button
-                    type="button"
+                <span
                     onClick={() => handleToggleShowMore(false)}
                 >
                     {texts.showLess}
-                </button>
+                </span>
             )}
         </Fragment>
     );
