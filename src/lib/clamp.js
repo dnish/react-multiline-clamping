@@ -60,7 +60,7 @@ const Clamp = ({
 
             {showMore && !isExpanded && (
                 <span
-          
+                    className="expand"
                     onClick={() => handleToggleShowMore(true)}
                 >
                     {texts.showMore}
@@ -69,6 +69,7 @@ const Clamp = ({
 
             {isExpanded && (
                 <span
+                    className="expand"
                     onClick={() => handleToggleShowMore(false)}
                 >
                     {texts.showLess}
