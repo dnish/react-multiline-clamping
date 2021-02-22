@@ -125,6 +125,7 @@ var TruncatedElement = function TruncatedElement(_ref) {
     return {
       overflow: "hidden",
       display: "-webkit-box",
+      whiteSpace: 'nowrap',
       WebkitBoxOrient: "vertical",
       WebkitLineClamp: parseInt(lines)
     };
